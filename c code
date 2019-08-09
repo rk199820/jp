@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+float p;
+float x;
+int c,i;
+int sum,k=0;
+printf("give the number in which the percentage increases");
+scanf("%d",&sum);
+scanf("%d%d",&x,&p);
+for(i=0;i<=x;i++)
+{
+c=x;
+x=x-(x*(p/100));
+p+=sum;
+k=k+c
+}
+return k;
+}
+
+
